@@ -16,9 +16,8 @@
 %
 % Contact person email: simon.tarboush@tu-berlin.de && pinjun.zheng@ubc.ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This function implement the proposed MC-aware beamforming scheme
-% following the successive convex approximation (SCA) presented in Sec. VI and
-% Algorithm 2. The BS precoding and UE combining are presented in Sec. V-B
+% This function implement the baseline beamforming scheme
+% following the SVD decomposition
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
