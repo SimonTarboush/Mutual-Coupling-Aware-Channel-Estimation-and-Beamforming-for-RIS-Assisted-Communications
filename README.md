@@ -1,9 +1,9 @@
 # Mutual-Coupling-Aware-Channel-Estimation-and-Beamforming-for-RIS-Assisted-Communications
 
-Authors: Jointly developed by Simon Tarboush & Pinjun Zheng                          
+Jointly developed by Simon Tarboush & Pinjun Zheng                          
 Last Modified: September, 2025
 
-If you use this code or any (modified) part of it in any publication, please cite the paper: 
+**If you use this code or any (modified) part of it in any publication, please cite the following paper:**
 
 Pinjun Zheng*, Simon Tarboush*, Hadi Sarieddeen, and Tareq Y. Al-Naffouri, "Mutual Coupling-Aware Channel Estimation and Beamforming for RIS-Assisted Communications", 
 accepted by IEEE Transactions on Wireless Communications.
@@ -16,7 +16,7 @@ The paper is available at:
 
 The code is available at:
 - GitHub: https://github.com/SimonTarboush/Mutual-Coupling-Aware-Channel-Estimation-and-Beamforming-for-RIS-Assisted-Communications
-        https://github.com/ZPinjun/????
+
 - Codes are also available on IEEE-Xplore: (will link the codes to CodeOcean)
 
 Contact emails: simon.tarboush@tu-berlin.de & pinjun.zheng@ubc.ca
