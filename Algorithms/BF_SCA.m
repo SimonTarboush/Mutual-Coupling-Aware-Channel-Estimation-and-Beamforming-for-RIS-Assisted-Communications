@@ -20,6 +20,27 @@
 % following the successive convex approximation (SCA) presented in Sec. VI and
 % Algorithm 2. The BS precoding and UE combining are presented in Sec. V-B
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Input Arguments:
+% G: the downlink exact equivalent cascaded channel
+% S: the scattering matrix between RIS unit cells 
+% PI: the power of RIS response, i.e., constraint A in Eq. (30) in the paper
+% PB: the transmit power at the BS
+% PU: the combining power at the UE
+% NB: the number of antennas at the BS
+% NU: the number of antennas at the UE
+% Thres_Alt: the threshold on the change in the objective function between adjacent alternating iterations, below which the algorithm is considered to have converged
+% Thres_SCA: the threshold on the change in the objective function between adjacent SCA iterations, below which the algorithm is considered to have converged
+% init: indicator specifying whether to use random or predefined initialization
+% combtype: indicator specifying whether to use analog or digital beamforming setup
+%
+% Output Arguments:
+% w_opt: the optimized precoder at the BS
+% f_opt: the optimized combiner at the UE
+% gamma_opt: the optimized RIS response
+% ga: the stored objective values across iterations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [w_opt,f_opt,gamma_opt,ga] = BF_SCA(G,S,PI,PB,PU,NB,NU,Thres_Alt,Thres_SCA,init,combtype)
 
 % Compute RIS response using accurate model

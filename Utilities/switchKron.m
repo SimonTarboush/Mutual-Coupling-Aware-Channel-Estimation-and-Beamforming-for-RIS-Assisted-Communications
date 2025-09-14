@@ -22,7 +22,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Input Arguments:  AkronB = kron(A,B)
 %                               where  A: matrix of size NAh x NAv
-%                                           B: matrix of size NBh x NBv
+%                                      B: matrix of size NBh x NBv
 %
 % Output Arguments: BkronA: kron(B,A)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

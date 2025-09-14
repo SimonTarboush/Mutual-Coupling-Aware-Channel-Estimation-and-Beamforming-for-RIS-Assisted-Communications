@@ -16,7 +16,9 @@
 %
 % Contact person email: simon.tarboush@tu-berlin.de && pinjun.zheng@ubc.ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This function/class generates the channel ....
+% This class generates the channel parameters and synthesizes the
+% frequency-domain channel matrix for the multipath MIMO channel 
+% bwteen a pair of Tx and Rx given by two 'c_array' objects. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 classdef c_channel < handle
     

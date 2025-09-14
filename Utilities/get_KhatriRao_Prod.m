@@ -27,7 +27,7 @@
 % KR_prod(A,B) = [kron(A(:,1),B(:,1)) .... kron(A(:,N),B(:,N))]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Input Arguments: - A: matrix of size (M1 x N1)
-%                              - B: matrix of size (M2 x N2)
+%                  - B: matrix of size (M2 x N2)
 % Output Arguments: C output matrix following row-wise Khatri-Rao product
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function C = get_KhatriRao_Prod(A, B)
