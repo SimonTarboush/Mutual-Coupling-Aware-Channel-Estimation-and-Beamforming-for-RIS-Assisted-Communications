@@ -10,9 +10,9 @@
 % IEEE-Xplore: https://ieeexplore.ieee.org/document/11176921
 % pre-print ArXiV: https://arxiv.org/abs/2410.04110
 %
-% Codes are also available on IEEE-Xplore: (will link the codes to CodeOcean)
+% Codes are also available on IEEE-Xplore:
 % GitHub: https://github.com/SimonTarboush/Mutual-Coupling-Aware-Channel-Estimation-and-Beamforming-for-RIS-Assisted-Communications
-%              https://github.com/ZPinjun/????
+%              https://github.com/ZPinjun/MC-channel-estimation
 %
 % Contact person email: simon.tarboush@tu-berlin.de && pinjun.zheng@ubc.ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -345,3 +345,4 @@ if SaveSimulationResults
     cd ..
 
 end
+
