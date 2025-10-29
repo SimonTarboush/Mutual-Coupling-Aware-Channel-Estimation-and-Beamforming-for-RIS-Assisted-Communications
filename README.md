@@ -15,7 +15,7 @@ If you use this code, or any modified part of it, in your work, please cite the 
 ---
 
 ### Paper Access
-- **IEEE Xplore:** [Link Pending](https://ieeexplore.ieee.org/document/11176921)  
+- **IEEE Xplore:** [Link](https://ieeexplore.ieee.org/document/11176921)  
 - **Preprint (arXiv):** [arXiv:2410.04110](https://arxiv.org/abs/2410.04110)
 
 ---
