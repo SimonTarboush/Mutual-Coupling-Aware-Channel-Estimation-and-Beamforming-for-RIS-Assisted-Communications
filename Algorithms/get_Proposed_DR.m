@@ -7,12 +7,12 @@
 % "Mutual Coupling-Aware Channel Estimation and Beamforming for RIS-Assisted Communications", 
 % accepted by IEEE Transactions on Wireless Communications.
 % *: P. Zheng and S. Tarboush are co-first authors; they contributed equally to this paper and the implementation of these codes.
-% IEEE-Xplore: https://ieeexplore.ieee.org/document/?????
+% IEEE-Xplore: https://ieeexplore.ieee.org/document/11176921
 % pre-print ArXiV: https://arxiv.org/abs/2410.04110
 %
-% Codes are also available on IEEE-Xplore: (will link the codes to CodeOcean)
+% Codes are also available on IEEE-Xplore:
 % GitHub: https://github.com/SimonTarboush/Mutual-Coupling-Aware-Channel-Estimation-and-Beamforming-for-RIS-Assisted-Communications
-%              https://github.com/ZPinjun/????
+%              https://github.com/ZPinjun/MC-channel-estimation
 %
 % Contact person email: simon.tarboush@tu-berlin.de && pinjun.zheng@ubc.ca
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -37,4 +37,5 @@ U_corr = Abar_OVS'*Abar_Est; % line 6 of Algorithm 1
 [~ , sel_ind] = sort(sqrt(diag(U_corr*U_corr')),'descend'); 
 Indx_DR = sel_ind(1:G_DR); % line 7 of Algorithm 1
 Abar_DR = Abar_OVS(:,Indx_DR); % line 8 of Algorithm 1
+
 end
